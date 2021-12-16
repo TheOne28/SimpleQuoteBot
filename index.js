@@ -1,9 +1,13 @@
-const Discord = require("discord.js")
-const client = new Discord.Client()
+// Require the necessary discord.js classes
+const { Client, Intents } = require('discord.js');
 const token = process.env['TOKEN']
+// Create a new client instance
+const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 
-client.on("ready", () => {
-	console.log('Logging in as $ {client.user.tag}')
-})
+// When the client is ready, run this code (only once)
+client.once('ready', () => {
+	console.log('Ready!');
+});
 
-client.login(token)
+// Login to Discord with your client's token
+client.login(token);
