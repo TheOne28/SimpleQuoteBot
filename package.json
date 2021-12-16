@@ -1,0 +1,26 @@
+{
+  "name": "SimpleQuoteBot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheOne28/SimpleQuoteBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheOne28/SimpleQuoteBot/issues"
+  },
+  "homepage": "https://github.com/TheOne28/SimpleQuoteBot#readme",
+  "dependencies": {
+    "discord.js": "^13.3.1"
+  },
+  "devDependencies": {
+    "node": "^16.13.1"
+  },
+  "description": ""
+}
